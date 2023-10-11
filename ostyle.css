@@ -1,0 +1,281 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.clr{
+    color:black;
+}
+.main h1{
+font-size: 65px;
+color: white;
+}
+.main p{
+    font-size: 15px;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.nav-item a{
+    color:rgb(12, 150, 219);
+}
+.content h3{
+    font-size: 20px;
+    padding-top: 15px;
+}
+.content{
+    padding: 15px;
+    animation-name: zoomin;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+@keyframes zoomin {
+    from{
+width: 30%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.content p{
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+overflow: hidden;
+
+}
+.content:hover{
+    translate: 0.5;
+    color: rgb(183, 30, 214);
+}
+.txt h1{
+    font-size: 40px;
+    text-align: center;
+    color: rgb(222, 12, 12);
+    padding: 20px;
+}
+.txt{
+    background-color: black;
+    color: white;
+}
+form{
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: blueviolet;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+input,select,textarea{
+    width: 100%;
+    padding: 10px,25px;
+    margin-bottom: 15px;
+}
+.img1{
+    padding: 20px;
+    overflow: hidden;
+}
+footer .footpanel-1 {
+    background-color: black;
+    color: white;
+    height: 50vh;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 30px;
+}
+footer{
+    padding-top: 10px;
+}
+.flex1{
+    display: flex;
+}
+.prcs{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    background-color: black;
+}
+.prcs1 h1{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+.prcs1{
+    background-color: black;
+    padding-top: 50px;
+}
+.cpy{
+    font-size: 10px;
+}
+.demo{
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) ,url("images/odimg4.webp");
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.demo h1{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.demo h3{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.rn{
+ margin-left: 650px;
+ margin-top: 50px;
+ border-radius: 7px;
+ padding: 10px;
+}
+.rn:hover{
+    color: burlywood;
+}
+.gly{
+    padding-top: 50px;
+    padding-left: 10px;
+    background-color:rgb(96, 11, 11);
+}
+.gly1 h1{
+text-align: center;
+color:red;
+}
+.gly1{
+    background-color: rgb(96, 11, 11);
+    padding-top: 20px;
+}
+span{
+    color: red;
+}
+.divs{
+    width: 100%;
+    height: 20vh;
+    background-color: black;
+}
+.divs h1{
+font-size: 30px;
+padding-left: 30px;
+color: white;
+padding-top: 30px;
+}
+.hd h1{
+    text-align: center;
+    font-size: 30px;
+    color:white;
+    padding-top: 50px;
+}
+.row{
+    padding-left: 30px;
+    padding-top: 15px;
+    background-color: brown;
+}
+iframe{
+    width: 100%;
+    padding-top: 10px;
+}
+.cnt{
+    background-color: black;
+}
+.gly3{
+    padding-top: 30px;
+    background-color:rgb(96, 11, 11);
+
+}
+.c1{
+padding: 20px;
+margin: 20px;
+}
+.c2{
+    padding: 20px;
+    margin: 20px;  
+}
+.bclr{
+    background-color: azure;
+
+}
+.bclr h1{
+text-align: center;
+font-size: 35px;
+}
+.t1 h1{
+text-align: center;
+font-size: 32px;
+padding: 10px;
+font-weight: 700;
+padding-top: 20px;
+}
+.t1 p{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+}
+.t2 p{
+padding: 40px;
+text-align: justify;
+}
+.t2 h1{
+    font-size: 70px;
+    font-weight: 900;
+    padding-left: 40px;
+}
+.mg{
+    padding-left: 30px;
+    padding-top: 80px;
+}
+.t3 p{
+    padding: 40px;
+    text-align: justify;
+}
+.t3 h1{
+    font-size: 70px;
+    font-weight: 900;
+    padding-left: 40px;
+}  
+.mg2{
+    padding-right: 30px;
+    padding-top: 80px;
+}
+.t4 h1{
+padding-top: 50px;
+text-align: center;
+font-size: 30px;
+font-weight: 400;
+}
+.t4 p{
+    text-align: center;
+}
+.t5 ol{
+   padding-top: 200px;
+}
+.t5{
+    background-color: azure;
+}
+.og{
+    padding-top: 50px;
+}
+.pdg h1{
+padding-left: 50px;
+font-size: 35px;
+padding-top: 40px;
+margin-left: 130px;
+text-align: center;
+}
+.pdg p{
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+    margin-left: 150px;
+}
+.bg3{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.crg p{
+color: rgb(16, 113, 191);
+}
